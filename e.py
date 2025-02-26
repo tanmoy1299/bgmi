@@ -21,7 +21,7 @@ redeem_codes_collection = db['redeem_codes']
 attack_logs_collection = db['user_attack_logs']
 
 # Bot Configuration
-TELEGRAM_BOT_TOKEN = '7326282713:AAFdZ-hAlwt5uE_ccCECayvnvWicLtzzmLE'
+TELEGRAM_BOT_TOKEN = '7990880430:AAH_mSccLZMRb3O0Cj5gQaN6j0cA-_QlWIo'
 ADMIN_USER_ID = 5894053921 
 ADMIN_USER_ID = 5894053921
 COOLDOWN_PERIOD = timedelta(minutes=1) 
@@ -32,9 +32,9 @@ active_processes = {}
 current_directory = os.getcwd()
 
 # Default values (in case not set by the admin)
-DEFAULT_BYTE_SIZE = 5
-DEFAULT_THREADS = 5
-DEFAULT_MAX_ATTACK_TIME = 100
+DEFAULT_BYTE_SIZE = 200
+DEFAULT_THREADS = 900
+DEFAULT_MAX_ATTACK_TIME = 160
 valid_ip_prefixes = ('52.', '20.', '14.', '4.', '13.')
 
 # Adjust this to your local timezone, e.g., 'America/New_York' or 'Asia/Kolkata'
